@@ -1,0 +1,21 @@
+{
+  "id":"./",
+  "name":"Smart Scale Accounting",
+  "short_name":"Smart Scale",
+  "description":"A guided accounting workload check, capacity calculator and sample working papers.",
+  "lang":"en-IE",
+  "start_url":"./#/workload-check",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#f5f8f4",
+  "theme_color":"#163d5b",
+  "prefer_related_applications":false,
+  "icons":[
+    {"src":"./assets/app-icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./assets/app-icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"}
+  ],
+  "shortcuts":[
+    {"name":"Check my workload","url":"./#/workload-check"},
+    {"name":"Capacity calculator","url":"./#/calculator"}
+  ]
+}
